@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidrio y Aluminio Valenzuela</title>
+    <link rel="stylesheet" href="Bonito.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <header class="header-logo">
+            <div class="logo-container">
+                <!-- Puedes insertar el logo aquí -->
+                <img src="V__1_-removebg-preview.png" alt="Logo de la empresa" class="logo">
+            </div>
+        </header>
+
+        <ul class="menu">
+            <li><button class="menu-btn" onclick="window.location.href='nosotros.html'" id="nosotrostbtn">Nostros</button></li>
+            <li><button class="menu-btn" onclick="window.location.href='contacto.html'" id="contactobtn">Contactos</button></li>
+
+        </ul>
+    </header>
+
+    <!-- Slider -->
+    <div class="slider">
+        <!-- Lista de ítems -->
+        <div class="list">
+            <div class="item active">
+                <img src="imagev.png" alt="Catalogo">
+                <div class="content">
+                    <p>Design</p>
+                    <h2>Catálogo</h2>
+                    <p>
+                        En esta página puedes ver información acerca de nosotros
+                        y te ofrecemos nuestro catálogo de imágenes con algunos de 
+                        nuestros trabajos.
+                    </p>
+                    <button class="viewGalleryBtn" onclick="window.location.href='ejemplo.html'">Ver Galería de Ventanas</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image.png" alt="Slider 02">
+                <div class="content">
+                    <p>Design</p>
+                    <h2>Catálogo</h2>
+                    <p>
+                        En esta página puedes ver información acerca de nosotros. 
+                        Y te ofrecemos nuestro catálogo de imágenes con algunos de 
+                        nuestros trabajos.
+                    </p>
+                    <button class="viewGalleryBtn" onclick="window.location.href='Puertas.html'">Ver Galería de Puertas</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imageb.png" alt="Slider 03">
+                <div class="content">
+                    <p>Design</p>
+                    <h2>Catálogo</h2>
+                    <p>
+                        En esta página puedes ver información acerca de nosotros. 
+                        Y te ofrecemos nuestro catálogo de imágenes con algunos de 
+                        nuestros trabajos.
+                    </p>
+                    <button class="viewGalleryBtn" onclick="window.location.href='Canceles.html'">Ver Galería de Canceles de Baño</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flechas de navegación -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!-- Miniaturas -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="imagev.png" alt="Ventanas">
+                <div class="content">Ventanas</div>
+            </div>
+            <div class="item">
+                <img src="image.png" alt="Puertas">
+                <div class="content">Puertas</div>
+            </div>
+            <div class="item">
+                <img src="imageb.png" alt="Cancel de Baño">
+                <div class="content">Cancel de Baño</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contenido dinámico para Home, Blog, e Info -->
+    <div id="dynamicContent" style="display: none;">
+        <h2 id="dynamicTitle"></h2>
+        <p id="dynamicText"></p>
+        <ul id="dynamicList"></ul>
+    </div>
+
+   
+
+    <script src="Scriiipt.js"></script>
+    
+</body>
+</html>
